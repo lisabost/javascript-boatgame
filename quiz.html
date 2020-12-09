@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--Bootstrap Styles Go Here-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--My Styles Go Here-->
+    <link rel="stylesheet" href="boats.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ships
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="ships/battleship.html">Battleships</a>
+                    <a class="dropdown-item" href="ships/carrier.html">Aircraft Carriers</a>
+                    <a class="dropdown-item" href="ships/cruiser.html">Cruisers</a>
+                    <a class="dropdown-item" href="ships/destroyer.html">Destroyers</a>
+                    <a class="dropdown-item" href="ships/submarine.html">Submarines</a>
+                    <a class="dropdown-item" href="ships/repair-ship.html">Repair Ships</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Equipment
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="equipment/main-gun.html">Main Guns</a>
+                    <a class="dropdown-item" href="equipment/secondary-gun.html">Secondary Guns</a>
+                    <a class="dropdown-item" href="equipment/anti-air.html">Anti-Air Guns</a>
+                    <a class="dropdown-item" href="equipment/auxiliary.html">Auxiliary Equipment</a>
+                    <a class="dropdown-item" href="equipment/torpedoes.html">Torpedoes</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Planes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="equipment/fighters.html">Fighters</a>
+                    <a class="dropdown-item" href="equipment/dive-bombers.html">Dive Bombers</a>
+                    <a class="dropdown-item" href="equipment/torpedo-bombers.html">Torpedo Bombers</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="quiz.html">Boat Quiz</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container w-50">
+    <div class="row">
+        <div class="col">
+            <h1>How Well Do you Know Your Boats?</h1>
+        </div>
+    </div>
+
+    <form>
+        <fieldset id="q1">
+            <legend>Which boat was a member of the Shiratsuyu-class of destroyers?</legend>
+            <div class="form-check">
+                <input type="radio" id="q1-1" name="q1" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q1-1" class="form-check-label">IJN Ayanami</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q1-2" name="q1" data-correct="1" data-wrong="0" class="form-check-input">
+                <label for="q1-2" class="form-check-label">IJN Yuudachi</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q1-3" name="q1" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q1-3" class="form-check-label">IJN Fubuki</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q1-4" name="q1" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q1-4" class="form-check-label">HMS Amazon</label>
+            </div>
+        </fieldset>
+
+        <fieldset id="q2">
+            <legend>How many battle stars did USS Cleveland earn?</legend>
+            <div class="form-check">
+                <input type="radio" id="q2-1" name="q2" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q2-1" class="form-check-label">16</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q2-2" name="q2" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q2-2" class="form-check-label">5</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q2-3" name="q2" data-correct="1" data-wrong="0" class="form-check-input">
+                <label for="q2-3" class="form-check-label">9</label>
+            </div>
+        </fieldset>
+
+        <fieldset id="q3">
+            <legend>What boat did KMS Prinz Eugen help to sink in the Battle of Denmark Strait</legend>
+            <div class="form-check">
+                <input type="radio" id="q3-1" name="q3" data-correct="1" data-wrong="0" class="form-check-input">
+                <label for="q3-1" class="form-check-label">HMS Hood</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q3-2" name="q3" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q3-2" class="form-check-label">HMS Unicorn</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q3-3" name="q3" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q3-3" class="form-check-label">IJN Ayanami</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q3-4" name="q3" data-correct="0" data-dog="1" class="form-check-input">
+                <label for="q3-4" class="form-check-label">USS Alabama</label>
+            </div>
+        </fieldset>
+
+        <fieldset id="q4">
+
+            <legend>Which ship earned 13 battle stars?</legend>
+            <div class="form-check">
+                <input type="radio" id="q4-1" name="q4" data-correct="1" data-wrong="0" class="form-check-input">
+                <label for="q4-1" class="form-check-label">USS Essex</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q4-2" name="q4" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q4-2" class="form-check-label">USS Arizona</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q4-3" name="q4" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q4-3" class="form-check-label">USS Alabama</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q4-4" name="q4" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q4-4" class="form-check-label">USS Reno</label>
+            </div>
+        </fieldset>
+
+        <fieldset id="q5">
+            <legend>Which boat was scrapped before she even saw service?</legend>
+            <div class="form-check">
+                <input type="radio" id="q5-1" name="q5" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q5-1" class="form-check-label">USS Arizona</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q5-2" name="q5" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q5-2" class="form-check-label">IJN Fubuki</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q5-3" name="q5" data-correct="0" data-wrong="1" class="form-check-input">
+                <label for="q5-3" class="form-check-label">HMS Centaur</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="q5-4" name="q5" data-correct="1" data-wrong="0" class="form-check-input">
+                <label for="q5-4" class="form-check-label">IJN Amagi</label>
+            </div>
+        </fieldset>
+
+        <div class="row" id="scoreQuizButton">
+            <div class="col">
+                <button class="btn btn-primary">See My Result!</button>
+            </div>
+        </div>
+
+        <div class="row" id="results">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <h2 id="description"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+</body>
+
+<footer class="footer">
+    Project created by: Lisa Bost, 2020
+</footer>
+
+<!--JQuery Goes Here-->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<!--JQuery Validation Goes Here-->
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<!--Popper and Bootstrap JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--My JavaScript Goes Here-->
+<script src="quiz.js"></script>
+
+</html>
